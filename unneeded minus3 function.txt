@@ -1,0 +1,11 @@
+        private void Check3Minus(int originalColour, int colour, int j, int k)
+        {
+            if (colour == originalColour)
+            {
+                columnScores[j] += scores[3 - k];
+            }
+            else
+            {
+                columnScoresPlayer[j] += AIScores[3 - k];
+            }           
+        }
