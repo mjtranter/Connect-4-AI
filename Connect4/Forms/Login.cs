@@ -10,7 +10,7 @@ namespace Connect4
 {
     public partial class Login : Form
     {
-        public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='C:\Users\mjtra\OneDrive\Documents\School stuff\My Work\!Connect 4\Connect4\Connect4\Database2.mdf';Integrated Security=True";
+        public static string connectionString = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename='FilePath\Database2.mdf';Integrated Security=True";
         public static string username = "";
 
         public Login()
